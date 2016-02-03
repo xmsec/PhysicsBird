@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal" >
+
+    <TextView
+        android:id="@+id/ab_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ab_iv1"
+        android:layout_centerHorizontal="true"
+        android:text="物理实燕" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"/>
+    
+     
+
+      <ImageView
+          android:id="@+id/ab_iv2"
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:layout_below="@+id/ab_tv2"
+          android:layout_centerHorizontal="true"
+         android:background="#CDCDB4"
+         android:layout_marginTop="5dp" />
+
+      <TextView
+          android:id="@+id/ab_tv4"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/ab_iv3"
+          android:layout_marginTop="15dp"
+          android:text="@string/app_disc"
+          android:layout_marginLeft="8dp"
+          android:layout_marginRight="8dp" />
+
+      <ImageView
+          android:id="@+id/ab_iv4"
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:layout_below="@+id/ab_tv4"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="10dp"
+          android:background="#CDCDB4" />
+
+      <TextView
+          android:id="@+id/ab_tv5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/ab_iv4"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="10dp"
+          android:text="公式来源《大学物理实验》(北京交通大学出版社)" />
+
+      <ImageView
+          android:id="@+id/ab_iv3"
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/ab_tv3"
+          android:layout_marginTop="12dp"
+          android:background="#CDCDB4" />
+
+      <TextView
+          android:id="@+id/ab_tv2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/ab_iv1"
+          android:layout_below="@+id/ab_tv1"
+          android:text="版本 1.0"
+          android:gravity="center_horizontal"
+          />
+
+      <ImageView
+          android:id="@+id/ab_iv1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="62dp"
+          android:src="@drawable/ic_launcher" 
+          android:gravity="center_horizontal"/>
+
+      <TextView
+          android:id="@+id/ab_tv3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/ab_tv2"
+          android:layout_below="@+id/ab_iv2"
+          android:layout_marginTop="16dp"
+          android:gravity="center_horizontal"
+          android:text="检查更新"
+          android:textColor="#4169E1" />
+
+      <Button
+          android:id="@+id/ab_re"
+          style="?android:attr/buttonStyleSmall"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:text="反馈交流" 
+          android:background="#ffffff"
+       android:textColor="#4169E1"/>
+
+</RelativeLayout>
