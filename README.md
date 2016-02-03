@@ -17,6 +17,7 @@ PhysicsBird （物理实燕） 以下简称 this app or 本应用。
 	Using viewpager(support v4) and adepter with inflator.（inflate views）
 	Exit with double clicking and toast.
 	Using Umeng sdk to auto-undate, analyse and feedback.
+	I'm sorry about my coding style in ver 1.0 and I'll start to change it in next vesion.
 	 
 
 
