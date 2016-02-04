@@ -25,7 +25,3 @@ PhysicsBird （物理实燕） 以下简称 this app or 本应用。
 
 
 
-<<<<<<< HEAD
-=======
-other files will be upload in these days.
->>>>>>> parent of 39c7b25... Update README.md
