@@ -11,13 +11,13 @@ PhysicsBird （物理实燕） 以下简称 this app or 本应用。
 
 ## ver 2.0
 	Based on android studio.
-	developed with Material Design（Just widgets） in 2016.2
-    use viewpager with tab, botton and edittext. meanwhile use blue theme. 
-	remove Umeng feedback and use blog to feedback
+	developed with Material Design（Just widgets） from open source libs in 2016.2
+    use viewpager with tab, botton and edittext. Meanwhile contain blue theme. 
+	remove Umeng feedback sdk and link to my blog to feedback.
 	coding style refreshed.
     have been uploaded on app store(s), such as 91, 360, Baidu, MeiZu, Tencent and wandoujia platform.
 ## ver 1.0
-	Based on eclipese adt. 
+	Based on eclipese adt. Open source.
 	Simply develped 2015.8
 	Using viewpager(support v4) and adepter with inflator.（inflate views）
 	Exit with double clicking and toast.
