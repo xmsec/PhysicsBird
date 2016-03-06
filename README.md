@@ -15,7 +15,7 @@ PhysicsBird （物理实燕） 以下简称 this app or 本应用。
     use viewpager with tab, botton and edittext. meanwhile use blue theme. 
 	remove Umeng feedback and use blog to feedback
 	coding style refreshed.
-    have been uploaded on app store(s), such as 91, 360, baidu and wandoujia platform.
+    have been uploaded on app store(s), such as 91, 360, Baidu, MeiZu, Tencent and wandoujia platform.
 ## ver 1.0
 	Based on eclipese adt. 
 	Simply develped 2015.8
