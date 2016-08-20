@@ -1,5 +1,5 @@
 # PhysicsBird
-PhysicsBird （物理实燕） 以下简称 this app or 本应用。
+[PhysicsBird （物理实燕）](http://blog.xmsec.cc/blog/2016/02/04/Physics-Bird/) 以下简称 this app or 本应用。
 
 
 ## Brief Introduction
