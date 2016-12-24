@@ -11,6 +11,7 @@
 ## ver 2.6
 	Based on android studio.
 	Keyboard input type bug fixed.	
+	Support Android 7.0.
 ## ver 2.5
 	Based on android studio.
 	There is a little change between 2.0 and 2.5 which are Autoupdate SDK was replaced and a bug was fixed.
