@@ -14,7 +14,7 @@
 	Support Android 7.0.
 ## ver 2.5
 	Based on android studio.
-	There is a little change between 2.0 and 2.5 which are Autoupdate SDK was replaced and a bug was fixed.
+	There is a little change between 2.0 and 2.5 that Autoupdate SDK was replaced and a bug was fixed.
 	View of about-information is simplified.
 ## ver 2.0
 	Based on android studio.
