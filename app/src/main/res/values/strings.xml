@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">物理实燕</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <drawable name="clr_normal">#ff6501</drawable>
+    <drawable name="clr_pressed">#a44100</drawable>
+	<string name="app_disc">物理实燕APP是由兴趣而开发，方便物理实验的简单易用的APP。\n功能主要包括：实验平均值计算、坏值剔除、直接不确定度计算、线性回归拟合。帮助文档请点击使用说明\n本应用在于方便学习，公式还是要会怎么用哦~\n欢迎交流 Email:donghao@bjtu.edu.cn 或点击使用说明进入博客\n请在应用市场更新本APP或等待更新提示</string>
+    
+</resources>

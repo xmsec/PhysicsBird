@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingTop="30dp">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etxv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:lines="1"
+        android:hint="输入x" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etyv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etxv4"
+        android:layout_below="@+id/etxv4"
+        android:ems="10"
+        android:hint="输入y"
+        android:lines="1"/>
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/btnnextv4"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/etyv4"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/etxv4"
+        android:layout_marginRight="20dp"
+
+        android:text="Next" />
+
+    <TextView
+        android:id="@+id/tvdisv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etyv4"
+        android:layout_alignRight="@+id/btnnextv4"
+        android:layout_below="@+id/etyv4"
+        android:layout_marginTop="14dp"
+        android:text="坐标(输入完整坐标后点Next)：" />
+
+    <TextView
+        android:id="@+id/tvbv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btncalv4"
+        android:layout_alignLeft="@+id/tvdisv4"
+        android:layout_alignRight="@+id/tvdisv4"
+        android:layout_marginBottom="108dp"
+        android:text="结果" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etyv4"
+        android:layout_centerHorizontal="true"
+        android:text="          " 
+        android:textColor="#FFFFFF"/>
+    
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/btncalv4"
+
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/btnresetv4"
+        android:layout_alignBottom="@+id/btnresetv4"
+        android:layout_toLeftOf="@+id/textView1"
+
+        android:text="计算" />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/btnresetv4"
+
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="36dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:background="#7b7b7b"
+        android:text="重置" />
+
+</RelativeLayout>

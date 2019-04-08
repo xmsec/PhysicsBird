@@ -1,6 +1,7 @@
 # PhysicsBird
 [PhysicsBird （物理实燕）](http://blog.xmsec.cc/blog/2016/02/04/Physics-Bird/) 以下简称 this app or 本应用。
 
+2019年翻出了陈年烂货，清理前也最后更新一下吧
 
 ## Brief Introduction
 	本应用是用以简化物理实验的数据处理过程的应用，功能仅限于物理实验所需的数据处理，提供均值和不确定度计算等功能。

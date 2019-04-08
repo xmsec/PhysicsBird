@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp">
+
+<com.rengwuxian.materialedittext.MaterialEditText
+    android:id="@+id/etdmv3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="32dp"
+    android:ems="10"
+    android:lines="1"
+    android:hint="仪器误差Δm，无请输0" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="进行均值计算后，输入仪器误差，点击OK\n仪器误差请输入Δm，程序自动除以根号3"
+    android:id="@+id/textView"
+    android:layout_below="@+id/etdmv3"
+    android:layout_alignLeft="@+id/etdmv3"
+    android:layout_alignStart="@+id/etdmv3" />
+<TextView
+    android:id="@+id/tvdisv3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="结果~(只限于直接不确定度)"
+    android:layout_below="@+id/textView"
+    android:layout_alignLeft="@+id/textView"
+    android:layout_alignStart="@+id/textView"
+    android:layout_marginTop="5dp" />
+
+<com.gc.materialdesign.views.ButtonRectangle
+    android:id="@+id/btnokv3"
+
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+
+    android:text="OK"
+    android:layout_alignTop="@+id/etdmv3"
+    android:layout_toRightOf="@+id/textView"
+    android:layout_toEndOf="@+id/textView"
+    android:layout_marginLeft="10dp"
+    android:layout_marginStart="10dp" />
+
+</RelativeLayout>
